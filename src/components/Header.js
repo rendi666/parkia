@@ -24,7 +24,7 @@ export default class Header extends React.Component {
                     }
                   </div>
                   {(_.get(this.props, 'pageContext.menus.main') && _.get(this.props, 'pageContext.site.siteMetadata.header.has_nav')) && <React.Fragment>
-                  <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
+                  {/* <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
                     <div className="site-nav-inside">
                       <button id="menu-close" className="menu-toggle"><span className="screen-reader-text">Open Menu</span><span className="icon-close" aria-hidden="true" /></button>
                       <ul className="menu">
@@ -36,7 +36,7 @@ export default class Header extends React.Component {
                       </ul>
                     </div>
                   </nav>
-                  <button id="menu-open" className="menu-toggle"><span className="screen-reader-text">Close Menu</span><span className="icon-menu" aria-hidden="true" /></button>
+                  <button id="menu-open" className="menu-toggle"><span className="screen-reader-text">Close Menu</span><span className="icon-menu" aria-hidden="true" /></button> */}
                   </React.Fragment>}
                 </div>
               </div>
